@@ -78,6 +78,11 @@ int main(){
 		printf("%d\n", cur->val);
 		cur = cur->next;
 	}
+
+	free(n1)
+	free(n2)
+	free(n3)
+	free(n4)
 	return 0;
 }
 
