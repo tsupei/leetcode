@@ -25,6 +25,8 @@ Intend to solve problems in Python3 or C.
 37. [Sudoku Solver](https://leetcode.com/problems/sudoku-solver)
 38. [Count and Say](https://leetcode.com/problems/count-and-say)
 39. [Combination Sum](https://leetcode.com/problems/combination-sum)
+40. [Combination Sum II](https://leetcode.com/problems/combination-sum-ii)
+41. [First Missing Positive](https://leetcode.com/problems/first-missing-positive)
 
 *a.* The difference between listA.reverse() and listA[::-1] 
 
@@ -40,6 +42,7 @@ Intend to solve problems in Python3 or C.
 37. Recursive
 38. Recursive
 39. Recursive, determine the same set?
-
+40. Recursive, how to prevent repeated answer
+41. (*difficult*) Time Complexity O(n), Space Complexity O(1), use the origin matrix as an index array
 	
 `Updated on 2019/10/6`
