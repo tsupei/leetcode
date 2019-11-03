@@ -31,8 +31,14 @@ Intend to solve problems in Python3 or C.
 42. [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)
 43. [Multiply Strings](https://leetcode.com/problems/multiply-strings)
 44. [Wildcard Matching](https://leetcode.com/problems/wildcard-matching)
+45. [Jump Game II](https://leetcode.com/problems/jump-game-ii/)
 46. [Permutations](https://leetcode.com/problems/permutations)
 47. [Permutations II](https://leetcode.com/problems/permutations-ii)
+48. [Rotate Image](https://leetcode.com/problems/rotate-image/)
+49. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+50. [Pow(x, n)](https://leetcode.com/problems/powx-n)
+51. [N-Queens](https://leetcode.com/problems/n-queens)
+52. [N-Queens II](https://leetcode.com/problems/n-queens-ii)
 
 *a.* The difference between listA.reverse() and listA[::-1] 
 
@@ -54,6 +60,7 @@ Intend to solve problems in Python3 or C.
 42. DP, Time Complexity O(n) ~= 3n
 43. Use array representation to do multiplication
 44. (*difficult*)DP, 
+45. Greedy!
 46. Recursive
 47. for duplicate input, sort and targeting each unique number only once
 ```bash
@@ -65,5 +72,26 @@ Intend to solve problems in Python3 or C.
 [1,1,1,1,1,3,4]
 
 ```
+48. transpose and reverse
+49. sorted string, O = nmlogm, n=len(strs), m=len(str) 
+50. (Not recommended) recursive
+51. 8 queens, recursive
+52. == 51
+
+```python
+# How to allocate a 2D array in python
+# The following example gives you a 3*3 array
+n = 3
+arr = [[0 for i in range(n)] for j in range(n)]
+
+# How to copy a 2D array in python
+cp_arr = [row[:] for row in arr]
+
+# ps. how to copy a 1D array in python
+arr = [0] * n
+cp_arr = arr[:]
+
+```
+
 	
 `Updated on 2019/10/6`
