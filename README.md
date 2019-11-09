@@ -6,6 +6,8 @@ Intend to solve problems in Python3 or C.
 `C`:
 
 24. [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)
+53. (*important*) O(n) solution is subtle. Remember it.
+
 
 `Python`:
 
@@ -93,5 +95,15 @@ cp_arr = arr[:]
 
 ```
 
-	
+54. (*interesting*) 
+
+	- transpose, divide and conquer, resursive
+	- directly spiral iteration
+
+55. .= 45
+56. merge, extend the upper bound
+57. insert and merge(56.)
+58. Trival
+
+
 `Updated on 2019/10/6`
