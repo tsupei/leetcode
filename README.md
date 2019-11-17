@@ -41,6 +41,18 @@ Intend to solve problems in Python3 or C.
 50. [Pow(x, n)](https://leetcode.com/problems/powx-n)
 51. [N-Queens](https://leetcode.com/problems/n-queens)
 52. [N-Queens II](https://leetcode.com/problems/n-queens-ii)
+53. [Maximum Subarray](https://leetcode.com/problems/maximum-subarray)
+54. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix)
+55. [Jump Game](https://leetcode.com/problems/jump-game)
+56. [Merge Intervals](https://leetcode.com/problems/merge-intervals)
+57. [Insert Interval](https://leetcode.com/problems/insert-interval)
+58. [Length of Last Word](https://leetcode.com/problems/length-of-last-word)
+59. [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)
+60. [Permutation Sequence](https://leetcode.com/problems/permutation-sequence)
+61. [Rotate List](https://leetcode.com/problems/rotate-list)
+62. [Unique Paths ](https://leetcode.com/problems/unique-paths)
+63. [Unique Paths II](https://leetcode.com/problems/unique-paths-ii)
+64. [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)
 
 *a.* The difference between listA.reverse() and listA[::-1] 
 
@@ -104,6 +116,11 @@ cp_arr = arr[:]
 56. merge, extend the upper bound
 57. insert and merge(56.)
 58. Trival
-
+59. Trival
+60. Calculate fatorial
+61. Linked List
+62. Trival
+63. greedy?
+64. greedy?
 
 `Updated on 2019/10/6`

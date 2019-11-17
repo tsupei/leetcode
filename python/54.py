@@ -23,7 +23,6 @@ class Solution(object):
 
 if __name__ == "__main__":
     sol = Solution()
-    mat = [[]
-    ]
+    mat = [[]]
     ans = sol.spiralOrder(mat)
     print(ans)
