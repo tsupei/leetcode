@@ -120,7 +120,27 @@ cp_arr = arr[:]
 60. Calculate fatorial
 61. Linked List
 62. Trival
-63. greedy?
-64. greedy?
+63. dp?
+64. dp?
+65.
+66. Trival
+67. Binary addition
+68. Trival but a lot of traps
+69. Binary Search
+70. Don't use recursive, try combination
 
-`Updated on 2019/10/6`
+=== From now on, only focus on problems whose likes more than dislikes ===
+
+73. Try to use less space: Optimal O(1), but mine is O(m+n)
+74. Binary Search in two dimension
+75. Trival
+76. (not-complete)
+77. Recursive, (Is there a better solution?)
+78. Recursive (faster than 71.13%)
+79. Recursive (faster than 96.68%)
+80. Trival
+81. (compare to 33) (faster then 33.34%, O(n)) Is there a O(log(n)) solution?
+82. Linked List
+83. Linked List
+
+`Updated on 2019/12/1`
