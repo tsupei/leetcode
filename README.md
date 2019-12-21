@@ -139,8 +139,20 @@ cp_arr = arr[:]
 78. Recursive (faster than 71.13%)
 79. Recursive (faster than 96.68%)
 80. Trival
-81. (compare to 33) (faster then 33.34%, O(n)) Is there a O(log(n)) solution?
+81. (compare to 33) (faster than 33.34%, O(n)) Is there a O(log(n)) solution?
 82. Linked List
 83. Linked List
+84. (*difficult*)
+85. (*difficult*)
+86. Partition, (using an buffer to store require space O(n), try not to use?)
+88. Replace in place. (faster than 63.xx%)
+90. Recursive
+92. pick, reverse, and concatenate
+93. Calculate all combination First
+94. (Trival) What is inorder(LVR) / postorder(LRV) / preorder(VLR) 
+95. (faster than 94.83%) Similar to 96. Recursive
+96. (Trival) Divide and Conquer
+97. (*difficult, important*) dp, manage 2D array
+98. (*important*) Validate BST
 
 `Updated on 2019/12/1`
