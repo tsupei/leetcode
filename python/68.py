@@ -19,7 +19,7 @@ class Solution(object):
         lines.append(line)
 
         output = []
-        print(lines)
+        # print(lines)
         for line in lines[:-1]:
             if len(line) == 1:
                 str_arr = line + [" "] * (maxWidth - len(line[0]))
@@ -53,7 +53,7 @@ class Solution(object):
         for word in lines[-1]:
             total += len(word)
         total += len(lines[-1]) - 1
-        print(total)
+        # print(total)
         str_arr = lines[-1]
         spaces =  [" "] * (maxWidth - total)
         output.append(" ".join(str_arr) + "".join(spaces))

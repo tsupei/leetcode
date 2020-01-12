@@ -17,7 +17,6 @@ class Solution(object):
             return [TreeNode(1+offset)]
         nodes = []
         for root in range(1, n+1):
-            print(n, root, offset)
             left_nodes = self.generateTreesOffset(root-1, offset)
             right_nodes = self.generateTreesOffset(n-root, root+offset)
             for left_node in left_nodes:

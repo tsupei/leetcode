@@ -24,8 +24,8 @@ class Solution(object):
         way = 0
         for i in range(max_amount_2):
             num = i + n - 2 * i
-            print(num, i)
-            print(self.c(num, i))
+            # print(num, i)
+            # print(self.c(num, i))
             way += self.c(num, i)
         return way
 

@@ -23,9 +23,6 @@ class Solution(object):
             if rec_col[j]:
                 for i in range(m):
                     matrix[i][j] = 0
-
-
-
         return matrix
 
 if __name__ == "__main__":

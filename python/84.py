@@ -52,7 +52,9 @@ class Solution(object):
                 area = self.searchRectangleAread(idx, heights[idx], heights)
                 if area > max_area:
                     max_area = area
-            elif heights[idx] >= prev_height and heights[idx] >= next_height and flag:
+            elif heights[idx] >= prev_height and heights[idx] >= next_height:
+                if not flag:
+                    continue
                 area = self.searchRectangleAread(idx, heights[idx], heights)
                 flag = False
                 if area > max_area:

@@ -20,7 +20,6 @@ class Solution(object):
             nums[i] = 1
         for i in range(red+white, red+white+blue):
             nums[i] = 2
-
         
 
 if __name__ == "__main__":

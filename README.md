@@ -142,9 +142,9 @@ cp_arr = arr[:]
 81. (compare to 33) (faster than 33.34%, O(n)) Is there a O(log(n)) solution?
 82. Linked List
 83. Linked List
-84. (*difficult*)
+84. (*difficult*)(Need to be recoded!) Not A very elegant solution
 85. (*difficult*)
-86. Partition, (using an buffer to store require space O(n), try not to use?)
+86. (*Again*)Partition, (using an buffer to store require space O(n), try not to use?)
 88. Replace in place. (faster than 63.xx%)
 90. Recursive
 92. pick, reverse, and concatenate
@@ -154,5 +154,15 @@ cp_arr = arr[:]
 96. (Trival) Divide and Conquer
 97. (*difficult, important*) dp, manage 2D array
 98. (*important*) Validate BST
+
+101. (*slow*) simply recursively compare
+102. (faster than 8.18%) simple recursion (faster than  81.35%) loop solution
+103. (faster than 97.37%) similar to 102.
+104. (faster than 93.69%) simple recursion
+105. (faster than 9.18%) divide and conquer, recursion (Find root node)
+106. (faster than 8.03%) similar to 105. 
+
+
+
 
 `Updated on 2019/12/1`
