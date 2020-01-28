@@ -161,7 +161,7 @@ cp_arr = arr[:]
 104. (faster than 93.69%) simple recursion
 105. (faster than 9.18%) divide and conquer, recursion (Find root node)
 106. (faster than 8.03%) similar to 105. 
-
+107. (faster than 6.35%) divide and conquer
 
 
 
