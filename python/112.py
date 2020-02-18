@@ -12,15 +12,19 @@ class Solution(object):
         :type sum: int
         :rtype: bool
         """
-        # method 1: recursively, DFS
+        # method 2: For loop
         if not root:
             return False
-        if root.left and root.right:
-            return self.hasPathSum(root.left, sum-root.val) or self.hasPathSum(root.right, sum-root.val)
-        if root.left:
-            return self.hasPathSum(root.left, sum-root.val)
-        if root.right:
-            return self.hasPathSum(root.right, sum-root.val)
-        if root.val == sum:
-            return True
+        stack = [(root, sum)]
+        while stack:
+            cur, cur_sum = stack.pop()
+            if cur_sum == cur.val:
+                if not cur.left and not cur.right:
+                    # A leaf node
+                    return True
+            if cur.left:
+                stack.append((cur.left, cur_sum-cur.val))
+            if cur.right:
+                stack.append((cur.right, cur_sum-cur.val))
         return False
+            
