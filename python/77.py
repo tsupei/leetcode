@@ -1,27 +1,26 @@
 class Solution(object):
-    def arr_combine(self, arr, k):
+    def my_combine(self, nums, k):
+        if not nums:
+            return []
         if k == 1:
-            return [[e] for e in arr]
-        if len(arr) == 1:
-            return [arr]
-
-        ans = []
-        for i in range(len(arr)-k+1):
-            print(arr[:i] + arr[i+1:])
-            ans.extend([ [ arr[i] ] + sub for sub in self.arr_combine(arr[i+1:], k-1)])
-        return ans     
-    
+            return [[num] for num in nums]
+        if len(nums) < k:
+            return []
+        elif len(nums) == k:
+            return [nums]
+        else:
+            ans = []
+            for i in range(len(nums)-k+1):
+                combs = self.my_combine(nums[i+1:], k-1)
+                for comb in combs:
+                    ans.append([nums[i]] + comb)
+            return ans
+                
     def combine(self, n, k):
         """
         :type n: int
         :type k: int
         :rtype: List[List[int]]
         """
-        if k > n:
-            return []
-        return self.arr_combine(list(range(1,n+1)), k)
-
-if __name__ == "__main__":
-    sol = Solution()
-    ans = sol.combine(5,3)
-    print(ans)
+        nums = [i for i in range(1, n+1)]
+        return self.my_combine(nums, k)
